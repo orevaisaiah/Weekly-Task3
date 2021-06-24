@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+    width: 370px;
+}
+.des-intro, .des-right, .des-left, .des-how, .des-foot, .mob-right, .hidden{
+        display: none;
+}
+.mob-right, .mob-left, .mob-intro, .mob-how, .mob-foot, .mob-ham{
+    display: inline;
+}
+.container1{
+    margin: 30px 25px 20px 35px;
+}
+.mob-intro{
+    position: absolute;
+    top: 270px;
+}
+.container2{
+    position: relative;
+    width: 375px;
+    height: 500px;
+    top: 450px;
+}
+.bg-area1{
+    position: absolute;
+    top: 40px;
+}
+.bg-area2{
+    position: absolute;
+    top: -99px;
+}
+.bg-area1 h1{
+    position: relative;
+    left: -140px;
+    font-size: 40px;
+    width: 350px;
+    text-align: center;
+    font-weight: 700;
+}
+.bg-area1 p{
+    position: relative;
+    left: -130px;
+    font-size: 16px;
+    width: 320px;
+    text-align: center;
+}
+.divid1{
+    position: absolute;
+    top: 500px;
+}
+.mob-intro{
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    z-index: 1;
+}
+.mob-left{
+    position: relative;
+    top: 100px;
+}
+.bg-area1 hr{
+    display: none;
+}
+.bg-area1 .button2{
+    position: relative;
+    left: -40px;
+}
+.divid1{
+    position: relative;
+    top: -50px;
+    left: 60px;
+
+}
+.divid1 h1{
+    font-size: 40px;
+}
+.divid1 hr{
+    position: relative;
+    left: 55px;
+}
+.divid2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 35px;
+    width: 340px;
+}
+.divid2 img{
+    position: relative;
+    left: 105px
+}
+.divid2 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.divid2 p{
+    font-size: 16px;
+    text-align: center;
+}
+.container4{
+    width: 340px;
+    position: relative;
+    left: -100px;
+    top: 150px;
+}
+
+.divid4{
+    display: flex;
+    flex-direction: column;
+}
